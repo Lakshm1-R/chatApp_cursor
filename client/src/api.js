@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://chatapp-cursor-1.onrender.com/api/auth/register',
+  baseURL: 'https://chatapp-cursor-1.onrender.com/api',
 });
 
 // Attach JWT token to requests if available
