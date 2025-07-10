@@ -3,7 +3,7 @@ import API from '../api';
 import { useNavigate } from 'react-router-dom';
 import { io } from 'socket.io-client';
 
-const socket = io('https://chatapp-cursor.onrender.com');
+const socket = io('https://chatapp-cursor-1.onrender.com');
 
 const getInitials = (name) => name ? name.split(' ').map(n => n[0]).join('').toUpperCase() : '';
 
